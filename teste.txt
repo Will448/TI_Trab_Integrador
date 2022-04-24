@@ -9,3 +9,7 @@ Arquivo editado pelo Git
 Versão 2
 
 atualizado kkk
+
+24/04/22
+
+Testes de aprendizado com o Git
