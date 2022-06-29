@@ -16,4 +16,6 @@ $stmt = $pdo->prepare($sql);
 $stmt->bindParam(':id', $_POST['id'], PDO::PARAM_INT);   
 $stmt->execute();
 
+header("location: tela_login.php");
+exit;
 ?>
