@@ -23,7 +23,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <h1 class="my-5">Oi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Bem vindo ao nosso site.</h1>
     <p>
         <a href="tela_resetsenha.php" class="btn btn-warning">Redefina sua senha</a>
-        <a href="delete.php" class="btn btn-warning">delete</a>
+        <a href="tela_delete.php" class="btn btn-warning">delete</a>
         <a href="tela_logout.php" class="btn btn-danger ml-3">Sair da conta</a>
     </p>
 </body>
